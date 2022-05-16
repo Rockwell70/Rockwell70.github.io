@@ -1,0 +1,22 @@
+.sleepy_cat {
+    background-image: url('images/sleepy_cat.jpeg');
+    background-size: cover;
+    height: 300px;
+    position: -webkit-sticky;
+    width: 400px;
+
+}
+
+.sleepy_caption {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 1px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  /*background-color: ;*/
+  color: black;
+}
