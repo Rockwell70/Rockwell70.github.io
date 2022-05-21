@@ -42,23 +42,23 @@ overflow-x:auto;
 }
 
 .sleepy_cat {
-    background-image: url('images/sleepy_cat.jpeg');
+    alignment: left;
+    *background-color: darkslateblue;
     background-size: cover;
-    height: 300px;
-    padding: 30px;
+    height: 360px;
+    padding: 50px 10px 10px 0;
     position: -webkit-sticky;
-    width: 400px;
+    width: 500px;
 
 }
 
 .sleepy_caption {
-  font-family: 'Playfair Display', serif;
   font-size: 24px;
-  font-style: italic;
-  line-height: 14px;
-  margin-left: 20px;
-  padding: 60px;
-  position: relative;
+  font-style: normal;
+  line-height: 10px;
+  margin-left: 5px;
+  padding: 0;
+  position: -webkit-sticky;
   top: 80%;
   width: 60%;
   /*background-color: ;*/
