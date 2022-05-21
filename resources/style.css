@@ -11,9 +11,9 @@
 
 body {
     font-family: "Apple SD Gothic Neo";
-  padding: 0 12px;
-  margin: 0;
-  background: #F7F7F7;
+    padding: 0 12px;
+    margin: 0;
+    background: #F7F7F7;
 }
 
 .buns
@@ -23,7 +23,7 @@ margin: 0px;
 padding: 10px 10px;
 }
 
-#bunny_imgs
+.bunny_imgs
 {
 display: block;
 margin: 0px;
@@ -43,8 +43,10 @@ overflow-x:auto;
 
 .sleepy_cat {
     alignment: left;
-    *background-color: darkslateblue;
+    /*background-color: darkslateblue;*/
     background-size: cover;
+    border-radius: 5px;
+    border: 3px solid black;
     height: 360px;
     padding: 50px 10px 10px 0;
     position: -webkit-sticky;
