@@ -69,8 +69,9 @@ overflow-x:auto;
 }
 
 .wb_serious {
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: 100px;
+    position: static;
 }
 
 .wb-caption {
