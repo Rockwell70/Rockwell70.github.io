@@ -69,12 +69,18 @@ overflow-x:auto;
 }
 
 .wb_serious {
-    margin-left: 500px;
+    display: flex;
+    justify-content: center;
     margin-top: 100px;
     position: static;
 }
 
 .wb-caption {
     font-size: x-large;
-    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+#say-something {
+    text-align: center;
 }
