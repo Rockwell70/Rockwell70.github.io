@@ -54,6 +54,11 @@ overflow-x:auto;
     width: 350px;
 
 }
+ #secret-image {
+     display: inline;
+     height: 300px;
+     width: 400px;
+ }
 
 .sleepy_caption {
   font-size: 24px;
