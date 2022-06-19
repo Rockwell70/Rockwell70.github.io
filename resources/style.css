@@ -59,13 +59,16 @@ overflow-x:auto;
 
 }
  #secret-image {
-     display: inline;
+     display: inline-flex;
      height: 300px;
      width: 400px;
  }
 
  #secret-button {
+     animation: 3s;
+     color: white;
      display: inline-flex;
+     background-color: crimson;
  }
 
 .sleepy_caption {
