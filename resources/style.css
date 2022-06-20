@@ -65,11 +65,15 @@ overflow-x:auto;
  }
 
  #secret-button {
-     animation: 3s;
+     align-items: stretch;
+     border-radius: 4px;
      color: white;
      display: inline-flex;
-     background-color: crimson;
+     background-color: dodgerblue;
+     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+     position: relative;
  }
+
 
 .sleepy_caption {
   font-size: 24px;
