@@ -23,17 +23,16 @@ margin: 0;
 padding: 10px 10px;
 }
 
-.bunny_imgs
-{
-display: block;
-margin: 0;
-padding: 10px 30px;
-position: relative;
-top: 90px;
-height:auto;
-max-width: auto;
-overflow-y: hidden;
-overflow-x:auto;
+.bunny_imgs {
+    display: block;
+    margin: 0;
+    padding: 10px 30px;
+    position: relative;
+    top: 90px;
+    height: auto;
+    max-width: max-content;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 #attitude {
@@ -103,4 +102,17 @@ overflow-x:auto;
 
 #say-something {
     text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.col-one {
+    grid-column: 1;
+}
+
+.col-two {
+    grid-column: 2;
 }
