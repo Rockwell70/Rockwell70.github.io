@@ -20,12 +20,12 @@ body {
 {
 display: inline;
 margin: 0;
-padding: 10px 10px;
+padding: 20px 20px;
 }
 
 .bunny_imgs {
     display: block;
-    margin: 0;
+    justify-content: center;
     padding: 10px 30px;
     position: relative;
     top: 90px;
