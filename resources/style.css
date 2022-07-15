@@ -13,7 +13,7 @@ body {
     font-family: "Apple SD Gothic Neo", serif;
     padding: 0 12px;
     margin: 0;
-    background: #F7F7F7;
+    background: #F5F8FA;
 }
 
 .buns
@@ -26,10 +26,11 @@ padding: 20px 20px;
 .bunny_imgs {
     display: block;
     justify-content: center;
-    padding: 10px 30px;
+    margin: 50px auto 50px auto;
+    padding: 50px;
     position: relative;
-    top: 90px;
     height: auto;
+    width: fit-content;
     max-width: max-content;
     overflow-y: hidden;
     overflow-x: auto;
@@ -76,20 +77,6 @@ padding: 20px 20px;
      position: relative;
      text-align: center;
  }
-
-
-.sleepy_caption {
-  font-size: 24px;
-  font-style: normal;
-  line-height: 10px;
-  margin-left: 5px;
-  padding: 0;
-  position: -webkit-sticky;
-  top: 80%;
-  width: 60%;
-  /*background-color: ;*/
-  color: black;
-}
 
 .wb_serious {
     display: flex;
