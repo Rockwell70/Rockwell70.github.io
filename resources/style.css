@@ -108,6 +108,7 @@ padding: 20px 20px;
     position: static;
 }
 #zack-caption {
+    font-size: xx-large;
     text-align: center;
     text-shadow: 0 2px 2px #FF0000,
     -2px 5px 0 #ff7f00,
