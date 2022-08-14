@@ -96,6 +96,8 @@ padding: 20px 20px;
 }
 
 .zacky {
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 5px darkslateblue;
     display: flex;
     justify-content: center;
     margin-left: auto;
