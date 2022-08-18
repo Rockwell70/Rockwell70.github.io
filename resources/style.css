@@ -25,11 +25,11 @@ padding: 20px 20px;
 
 .bunny_imgs {
     background-color: #F2A81D;
-    display: inline-table;
+    display: -ms-inline-flexbox;
     justify-content: center;
-    margin: 50px auto 50px auto;
-    padding: 50px;
-    position: relative;
+    margin: 100px auto 80px auto;
+    padding: 60px;
+    position: static;
     height: auto;
     width: fit-content;
     max-width: max-content;
@@ -46,19 +46,6 @@ padding: 20px 20px;
     padding: 10px 20px;
 }
 
-.cool_cat {
-    alignment: left;
-    /*background-color: darkslateblue;*/
-    background-size: cover;
-    border-radius: 5px;
-    border: 3px solid black;
-    height: 300px;
-    margin-top: 50px;
-    padding: 10px;
-    position: -webkit-sticky;
-    width: 350px;
-
-}
  #secret-image {
      display: inline-flex;
      height: 300px;
@@ -67,6 +54,7 @@ padding: 20px 20px;
 
  #secret-button {
      align-items: center;
+     margin: auto;
      border-radius: 4px;
      color: white;
      display: inline-flex;
