@@ -47,9 +47,10 @@ padding: 20px 20px;
 }
 
  #secret-image {
-     display: inline-flex;
-     height: 300px;
-     width: 400px;
+     display: block;
+     padding-top: 10px;
+     height: 400px;
+     width: 500px;
      box-shadow: 25px 25px 15px gray;
  }
 
