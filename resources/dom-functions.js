@@ -1,4 +1,6 @@
 $(document).ready(() => {
+    let date = new Date().getDay();
+    let daysToRayRay = Math.abs(date - 6);
   $("#secret-button").on("click", () => {
     $("#secret-image").toggle("slow")
       // .css({
@@ -8,12 +10,37 @@ $(document).ready(() => {
       //   boxShadow: "25px 25px 15px gray",
       // });
   });
-  $('.rayray').on('change', function () {
-      let day = new Date().getDay();
-      if (day === 6) {
-          $('.rayray').toggle('slow')
-      }
-    })
+  $(".rayray").css({
+      color: 'red',
+    display: "inline-flex",
+    position: "absolute",
+    justifyContent: "center",
+    textAlign: "center",
+      paddingLeft: '400',
+  });
+
+  if (date === 5) {
+      $('.rayray').text("Happy Ray Ray Friday!")
+  } else {
+      $('.rayray').text(`Alert: ${daysToRayRay} days until Ray Ray Friday!`)
+
+  }
+
+  function pulse() {
+      $('.rayray').fadeIn(300).fadeOut(500)
+  }
+  setInterval(pulse, 1500)
+  // let blink = function () {
+  //     $('.rayray').animate({
+  //         opacity: '0'
+  //     }, function () {
+  //         $(this).animate({
+  //             opacity: '1'
+  //         }, blink);
+  //     });
+  // };
+  // blink()
+
 
 
 });
