@@ -3,12 +3,6 @@ $(document).ready(() => {
     let daysToRayRay = Math.abs(date - 6);
   $("#secret-button").on("click", () => {
     $("#secret-image").toggle("slow")
-      // .css({
-      //   display: "inline-flex",
-      //   height: "300px",
-      //   width: "400px",
-      //   boxShadow: "25px 25px 15px gray",
-      // });
   });
   $(".rayray").css({
     color: "red",
@@ -18,6 +12,14 @@ $(document).ready(() => {
     textAlign: "center",
     paddingLeft: "400",
   });
+
+  $(".poochie").css({
+    height: "300px",
+    width: "300px",
+    paddingLeft: "100px",
+  });
+
+  bounce()
 
   if (date === 5) {
       $('.rayray').text("Happy Ray Ray Friday!")
@@ -31,8 +33,7 @@ $(document).ready(() => {
   }
   setInterval(pulse, 1500)
 
-    $('.poochie').css({height: '400px',
-    width: '400px'})
+
 
 
 });
