@@ -11,12 +11,12 @@ $(document).ready(() => {
       // });
   });
   $(".rayray").css({
-      color: 'red',
+    color: "red",
     display: "inline-flex",
     position: "absolute",
     justifyContent: "center",
     textAlign: "center",
-      paddingLeft: '400',
+    paddingLeft: "400",
   });
 
   if (date === 5) {
@@ -30,17 +30,9 @@ $(document).ready(() => {
       $('.rayray').fadeIn(300).fadeOut(500)
   }
   setInterval(pulse, 1500)
-  // let blink = function () {
-  //     $('.rayray').animate({
-  //         opacity: '0'
-  //     }, function () {
-  //         $(this).animate({
-  //             opacity: '1'
-  //         }, blink);
-  //     });
-  // };
-  // blink()
 
+    $('.poochie').css({height: '400px',
+    width: '400px'})
 
 
 });
