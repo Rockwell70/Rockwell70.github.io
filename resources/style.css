@@ -128,3 +128,22 @@ padding: 20px 20px;
 .col-two {
     grid-column: 2;
 }
+
+.poochie {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 300px;
+    }
+
+    to {
+        margin-left: 100%;
+        width: 300px;
+    }
+
+}

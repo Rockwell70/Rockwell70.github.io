@@ -19,7 +19,6 @@ $(document).ready(() => {
     paddingLeft: "100px",
   });
 
-  bounce()
 
   if (date === 5) {
       $('.rayray').text("Happy Ray Ray Friday!")
