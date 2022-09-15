@@ -13,11 +13,15 @@ $(document).ready(() => {
     paddingLeft: "400",
   });
 
-  $(".poochie").css({
+  $(".poochie")
+      .css({
     height: "300px",
     width: "300px",
     paddingLeft: "100px",
   });
+
+  // $('.textbox').delay(500).animate({top:'18'}, 700);
+
 
 
   if (date === 5) {
