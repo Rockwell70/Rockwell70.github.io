@@ -1,6 +1,8 @@
 $(document).ready(() => {
     let date = new Date().getDay();
-    let daysToRayRay = Math.abs(date - 6);
+    let daysToRayRay = 0;
+    date > 5 ? daysToRayRay = date : daysToRayRay = 5 - date;
+    // let daysToRayRay = Math.abs(date - 7);
   $("#secret-button").on("click", () => {
     $("#secret-image").toggle("slow")
   });
@@ -10,7 +12,7 @@ $(document).ready(() => {
     position: "absolute",
     justifyContent: "center",
     textAlign: "center",
-    paddingLeft: "400",
+    paddingLeft: "500px",
   });
 
   $(".poochie")
@@ -19,6 +21,14 @@ $(document).ready(() => {
     width: "300px",
     paddingLeft: "100px",
   });
+
+  $('.zacky').on('click', () => {
+      $('#zack-caption').html(function() {
+          return '<h3 id="zack-caption">&#127752;<i>I Love Twinks!!!</i>&#127828;</h3>';
+
+      });
+
+  })
 
   // $('.textbox').delay(500).animate({top:'18'}, 700);
 
@@ -32,7 +42,8 @@ $(document).ready(() => {
   }
 
   function pulse() {
-      $('.rayray').fadeIn(300).fadeOut(500)
+      //$('.rayray').fadeIn(300).fadeOut(600)
+      $('.rayray').slideToggle();
   }
   setInterval(pulse, 1500)
 
