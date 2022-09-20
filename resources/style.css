@@ -149,6 +149,32 @@ padding: 20px 20px;
 
 }
 
+.poochieCaption {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    padding-left: 100px;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+    color: palevioletred;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300px;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300px;
+    }
+
+}
+
 /*.textbox {*/
 /*    animation-duration: 4s;*/
 /*    animation-name: slidein;*/
