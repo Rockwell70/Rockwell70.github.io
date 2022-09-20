@@ -24,8 +24,7 @@ $(document).ready(() => {
 
   $('.zacky').on('click', () => {
       $('#zack-caption').html(function() {
-          return '<h3 id="zack-caption">&#127752;<i>I Love Twinks!!!</i>&#127828;</h3>';
-
+          return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i></h3>';
       });
 
   })
