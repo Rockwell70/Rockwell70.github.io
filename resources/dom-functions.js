@@ -24,7 +24,7 @@ $(document).ready(() => {
 
   $('.zacky').on('click', () => {
       $('#zack-caption').html(function() {
-          return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i></h3>';
+          return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i>&#128138;</h3>';
       });
 
   })
@@ -35,13 +35,13 @@ $(document).ready(() => {
 
   if (date === 5) {
       $('.rayray').text("Happy Ray Ray Friday!")
+  } else if (date === 4) {
+      $('.rayray').text(`Alert: ${daysToRayRay} day until Ray Ray Friday!`)
   } else {
       $('.rayray').text(`Alert: ${daysToRayRay} days until Ray Ray Friday!`)
-
   }
 
   function pulse() {
-      //$('.rayray').fadeIn(300).fadeOut(600)
       $('.rayray').slideToggle();
   }
   setInterval(pulse, 1500)
