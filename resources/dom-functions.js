@@ -1,3 +1,6 @@
+import * as fs from 'fs'
+import * as readline from 'readline'
+
 $(document).ready(() => {
     let date = new Date().getDay();
     let daysToRayRay = 0;
@@ -22,12 +25,19 @@ $(document).ready(() => {
     paddingLeft: "100px",
   });
 
-  $('.zacky').on('click', () => {
-      $('#zack-caption').html(function() {
-          return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i>&#128138;</h3>';
+    $(".zacky").on("click", () => {
+      $("#zack-caption").html(function () {
+        const num = Math.floor(Math.random() * 3);
+        switch (num) {
+          case 0:
+            return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i>&#128138;</h3>';
+          case 1:
+            return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>That feels weird.</i>&#129312;</h3>';
+          case 2:
+            return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#9939;<i>Wonder if this straight guy is enjoying this as much as me?.</i>&#128138;</h3>';
+        }
       });
-
-  })
+    });
 
   // $('.textbox').delay(500).animate({top:'18'}, 700);
 
