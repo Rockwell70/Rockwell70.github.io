@@ -32,33 +32,13 @@ $(document).ready(() => {
           case 0:
             return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i>&#128138;</h3>';
           case 1:
-            return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>That feels weird.</i>&#129312;</h3>';
+            return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#128562;<i>That feels weird.</i>&#129312;</h3>';
           case 2:
-            return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#9939;<i>Wonder if this straight guy is enjoying this as much as me?.</i>&#128138;</h3>';
+            return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#9939;<i>Wonder if this straight guy is enjoying this as much as me?.</i>&#129300;</h3>';
         }
       });
     });
 
-  // $('.zacky').on('click', () => {
-  //   $('#zack-caption').html(function() {
-  //     return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i>&#128138;</h3>';
-  //   });
-  //
-  // })
-
-
-  // $(".zacky").on("click", () => {
-  //   const num = Math.floor(Math.random() * 3);
-  //   $("#zack-caption").html(function () {
-  //     if (num === 0) {
-  //       return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>You look like you need a popper!</i>&#128138;</h3>';
-  //     } else if (num === 1) {
-  //       return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;"><i>That feels weird.</i>&#129312;</h3>';
-  //     } else {
-  //       return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#9939;<i>Wonder if this straight guy is enjoying this as much as me?.</i>&#128138;</h3>';
-  //     }
-  //   });
-  // });
 
   // $('.textbox').delay(500).animate({top:'18'}, 700);
 
@@ -73,9 +53,11 @@ $(document).ready(() => {
   }
 
   function pulse() {
-      $('.rayray').slideToggle();
+      $('.rayray').toggle();
   }
   setInterval(pulse, 1500)
+
+
 
 
 
