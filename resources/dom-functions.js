@@ -57,11 +57,6 @@ $(document).ready(() => {
   }
   setInterval(pulse, 1500)
 
-
-
-
-
-
 });
 
 const buttonElement = document.getElementById('secret-button');
