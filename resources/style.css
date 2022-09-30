@@ -137,6 +137,31 @@ padding: 20px 20px;
     animation-iteration-count: infinite;
 }
 
+.blog-read-time-bar.-active {
+    display: block;
+}
+
+.blog-read-time-bar {
+    height: 0.25rem;
+    position: absolute;
+    width: 100%;
+}
+
+.blog-read-time-bar-indicator {
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    height: inherit;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+}
+
+progress {
+    writing-mode: horizontal-tb !important;
+    display: inline-block;
+    vertical-align: -0.2em;
+}
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
