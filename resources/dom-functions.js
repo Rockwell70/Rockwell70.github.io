@@ -25,6 +25,17 @@ $(document).ready(() => {
     paddingLeft: "100px",
   });
 
+  $(".progressBar").css({
+    position: "fixed",
+    top: "0",
+    left: "0",
+    height: "8px",
+    background: "linear-gradient(to right, #ff5f6d, #ffc371)",
+    width: "0%",
+    zIndex: "100",
+    transition: "width 0.2s ease-out"
+  })
+
     $(".zacky").on("click", () => {
       $("#zack-caption").html(function () {
         const num = Math.floor(Math.random() * 3);
@@ -59,10 +70,8 @@ $(document).ready(() => {
 
 });
 
-const buttonElement = document.getElementById('secret-button');
-const imgElement = document.getElementById('secret-image');
-
-let buttonText = buttonElement.textContent || buttonElement.innerText;
+const progressBar = document.querySelector('.progressBar');
+const section = document.querySelector('section');
 
 // const toggleHiddenElement = (domElement) => {
 //   if (domElement.style.display === "none") {
