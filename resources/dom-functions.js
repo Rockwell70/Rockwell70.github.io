@@ -1,21 +1,21 @@
 // import * as fs from 'fs'
 // import * as readline from 'readline'
 
-$(document).ready(function() {
-  let marquee = $('div.rayrayd');
-  console.log(marquee);
-  marquee.each(function() {
-    let mar = $(this),indent = mar.width();
-    mar.marquee = function() {
-      indent--;
-      mar.css('text-indent',indent);
-      if (indent < -1 * mar.children('div.rayray').width()) {
-        indent = mar.width();
-      }
-    };
-    mar.data('interval',setInterval(mar.marquee,1000/600));
-  });
-});
+// $(document).ready(function() {
+//   let marquee = $('div.rayrayd');
+//   console.log(marquee);
+//   marquee.each(function() {
+//     let mar = $(this),indent = mar.width();
+//     mar.marquee = function() {
+//       indent--;
+//       mar.css('text-indent',indent);
+//       if (indent < -1 * mar.children('div.rayray').width()) {
+//         indent = mar.width();
+//       }
+//     };
+//     mar.data('interval',setInterval(mar.marquee,1000/600));
+//   });
+// });
 
 $(document).ready(() => {
   let date = new Date().getDay();
@@ -27,12 +27,6 @@ $(document).ready(() => {
 
     $("#secret-button").on("click", () => {
     $("#secret-image").toggle("slow");
-  });
-  $(".rayray").css({
-    color: "red",
-    // display: "inline-flex",
-    // position: "absolute",
-    // textAlign: "center",
   });
 
   $(".poochie").css({
