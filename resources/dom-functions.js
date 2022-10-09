@@ -27,6 +27,11 @@ $(document).ready(() => {
 
     $("#secret-button").on("click", () => {
     $("#secret-image").toggle("slow");
+    $("#secret-image-text").toggle("slow")
+        .css({'font-size': 'black'});
+    // if ($("#secret-image").is(":visible")) {
+    //   $("#secret-image").css({"background" :"black"});
+    // }
   });
 
   $(".poochie").css({
