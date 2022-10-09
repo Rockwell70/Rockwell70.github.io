@@ -16,67 +16,31 @@ body {
     background: #F5F8FA;
 }
 
-* {
-    box-sizing: border-box;
+.buns
+{
+display: inline;
+margin: 0;
+padding: 20px 20px;
 }
 
-/*.buns*/
-/*{*/
-/*display: inline;*/
-/*margin: 0;*/
-/*padding: 20px 20px;*/
-/*}*/
+.bunny_imgs {
+    background-color: #F2A81D;
+    display: -ms-inline-flexbox;
+    justify-content: center;
+    margin: 100px auto 80px auto;
+    padding: 60px;
+    position: static;
+    height: auto;
+    width: fit-content;
+    max-width: max-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
-/*.bunny_imgs {*/
-/*    background-color: #F2A81D;*/
-/*    display: -ms-inline-flexbox;*/
-/*    justify-content: center;*/
-/*    margin: 100px auto 80px auto;*/
-/*    padding: 60px;*/
-/*    position: static;*/
-/*    height: auto;*/
-/*    width: fit-content;*/
-/*    max-width: max-content;*/
-/*    overflow-y: auto;*/
-/*    overflow-x: hidden;*/
-/*}*/
-
-#attitude, #baby, #bunny-hind-legs {
+#attitude {
     height: 340px;
     width: 500px;
 }
-
-/* 3. Structure Styles
-======================================== */
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    padding: 0 15px;
-}
-.container:before, .container:after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-
-
-.photo-grid {
-    margin-top: -80px;
-}
-.image-box {
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
-    width: calc(100% - 40px);
-    margin: 20px;
-    max-height: 450px;
-    overflow: hidden;
-    float: left;
-    display: inline-block;
-}
-.image-box img {
-    width: 100%;
-    height: auto;
-}
-
 .sounders {
     height: 100px;
     padding: 10px 20px;
