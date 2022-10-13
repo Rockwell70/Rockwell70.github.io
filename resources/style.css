@@ -48,6 +48,8 @@ padding: 20px 20px;
 
 #secret-image-div {
     display: inline-flex;
+    /*justify-content: space-around;*/
+    justify-content: center;
 }
 
 /*#secret-image-text {*/
