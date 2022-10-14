@@ -29,7 +29,7 @@ $(document).ready(() => {
     $("#secret-image").toggle("slow");
     $("#secret-image-arrow").toggle("slow");
     $("#secret-image-text").toggle("slow")
-        .css({'font-size': 'black'});
+        .css({'font-size': '25px'});
     // if ($("#secret-image").is(":visible")) {
     //   $("#secret-image").css({"background" :"black"});
     // }
