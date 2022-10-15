@@ -26,13 +26,8 @@ $(document).ready(() => {
 
 
     $("#secret-button").on("click", () => {
-    $("#secret-image").toggle("slow");
-    $("#secret-image-arrow").toggle("slow");
-    $("#secret-image-text").toggle("slow")
-        .css({'font-size': '25px'});
-    // if ($("#secret-image").is(":visible")) {
-    //   $("#secret-image").css({"background" :"black"});
-    // }
+    $("#secret-figure").toggle("slow");
+    $("#secret-image-text").css({'font-size': '25px'});
   });
 
   $(".poochie").css({
