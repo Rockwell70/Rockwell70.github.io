@@ -54,7 +54,7 @@ $(document).ready(() => {
   // $('.textbox').delay(500).animate({top:'18'}, 700);
 
   if (date === 5) {
-    $(".rayray").text("Happy Ray Ray Friday!\nWhat would Tupac do today?");
+    $(".rayray").text("Happy Ray Ray Friday! What would Tupac do today?");
   } else if (date === 4) {
     $(".rayray").text(`Alert: ${daysToRayRay} day until Ray Ray Friday!`);
   } else {

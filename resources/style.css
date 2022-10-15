@@ -173,13 +173,17 @@ padding: 20px 20px;
     justify-content: left;
     text-align: left;
     color: #F26B1D;
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family: "Apple SD Gothic Neo", serif;
 }
 
 
 .rayray {
     color: red;
-    animation: 8s ease-in 0s infinite both running slidein;}
+    animation: 8s ease-in 0s infinite both running slidein;
+    width: 3000px;
+    display: flex;
+
+}
 
 
 @keyframes slidein {
