@@ -28,7 +28,7 @@ padding: 20px 20px;
     display: -ms-inline-flexbox;
     justify-content: center;
     margin: 100px auto 80px auto;
-    padding: 60px;
+    padding: 30px;
     position: static;
     height: auto;
     width: fit-content;
@@ -37,7 +37,7 @@ padding: 20px 20px;
     overflow-x: hidden;
 }
 
-#attitude {
+#attitude, #backpack {
     height: 340px;
     width: 500px;
 }
@@ -178,7 +178,7 @@ padding: 20px 20px;
 
 
 .rayray {
-    color: red;
+    color: #F26B1D;
     animation: 8s ease-in 0s infinite both running slidein;
     width: 3000px;
     display: flex;
@@ -193,7 +193,7 @@ padding: 20px 20px;
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 0;
         width: 400px;
     }
 
