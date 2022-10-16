@@ -27,14 +27,21 @@ $(document).ready(() => {
 
     $("#secret-button").on("click", () => {
     $("#secret-figure").toggle("slow");
-    $("#secret-image-text").css({'font-size': '25px'});
+    $("#secret-image-text").toggle('slow');
   });
 
-  $(".poochie").css({
+  $("#poochie").css({
+    display: "flex",
     height: "300px",
     width: "300px",
-    paddingLeft: "100px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    justifyContent: "center",
+    position: "static",
+    boxShadow: "10px 10px 5px darkslateblue"
+
   });
+
 
   $(".zacky").on("click", () => {
     $("#zack-caption").html(function () {
