@@ -44,7 +44,7 @@ $(document).ready(() => {
 
 
   $(".zacky").on("click", () => {
-    $("#zack-caption").html(function () {
+    $("#zack-caption").css({overflowWrap: "break-word"}).html(function () {
       const num = Math.floor(Math.random() * 3);
       switch (num) {
         case 0:
