@@ -42,6 +42,18 @@ $(document).ready(() => {
 
   });
 
+  $("#poochie2").css({
+    display: "flex",
+    height: "300px",
+    width: "300px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    justifyContent: "center",
+    position: "static",
+    boxShadow: "10px 10px 5px darkslateblue"
+
+  });
+
 
   $(".zacky").on("click", () => {
     $("#zack-caption").css({overflowWrap: "break-word"}).html(function () {
