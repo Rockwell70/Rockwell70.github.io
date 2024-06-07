@@ -65,7 +65,7 @@ $(document).ready(() => {
           return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#128562;<i>That feels weird.</i>&#129312;</h3>';
         case 2:
           return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#9939;<i>Wonder if this straight guy is enjoying this as much as me?.</i>&#129300;</h3>';
-        case 4:
+        case 3:
           return '<h3 id="zack-caption" style="color:#038C25; text-shadow: none;">&#9939;<i>Did I spray tan my nuts?.</i>&#129300;</h3>';
       }
     });
