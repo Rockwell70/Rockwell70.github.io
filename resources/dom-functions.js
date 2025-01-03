@@ -56,7 +56,7 @@ $(document).ready(() => {
 
 
   $(".zacky").on("click", () => {
-    $("#zack-caption").css({overflowWrap: "break-word"}).html(function () {
+    $("#zack-caption").css({textWrap: "balance"}).html(function () {
       const num = Math.floor(Math.random() * 4);
       switch (num) {
         case 0:
@@ -75,7 +75,7 @@ $(document).ready(() => {
   // $('.textbox').delay(500).animate({top:'18'}, 700);
 
   if (date === 5) {
-    $(".rayray").text("Happy Ray Ray Friday! What would Tupac do today?");
+    $(".rayray").text("Happy Ray Ray Friday! He got all KINDS a plans!!")
   } else if (date === 4) {
     $(".rayray").text(`Alert: ${daysToRayRay} day until Ray Ray Friday!`);
   } else {
