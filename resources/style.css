@@ -47,7 +47,11 @@ padding: 20px 20px;
 
 .sounders {
     height: 100px;
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #secret-image-div {
@@ -223,7 +227,7 @@ padding: 20px 20px;
     color: #FFFFFF;
     cursor: pointer;
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 24px;
     margin-left: 20px;
@@ -233,7 +237,8 @@ padding: 20px 20px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: fit-content;
+    width: 300px;
+    height: 75px;
     word-break: break-word;
 
 }
