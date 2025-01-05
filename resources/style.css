@@ -1,7 +1,8 @@
 .page-header {
-    color: #F2A81D;
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size: 40px;
+    color: white;
+    /*color: black;*/
+    font-family: D-DIN Bold Arial Verdana, sans-serif;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -9,9 +10,10 @@
     font-size: 35px;
 }
 
-h4 {
+h4, h5 {
     color: white
 }
+
 
 body {
     font-family: "Apple SD Gothic Neo", serif;
@@ -19,6 +21,9 @@ body {
     margin: 0;
     /*background: #0367A6;*/
     background: black;
+    background-size:  100% auto;
+    background-repeat: no-repeat;
+    /*background-image: url('resources/images/rideshare_feature.jpg');*/
 }
 
 .buns
@@ -50,7 +55,7 @@ padding: 20px 20px;
 
 
 .sounders {
-    height: 100px;
+    height: 50px;
     /*padding: 10px 20px;*/
     animation: shake 0.5s;
     animation-iteration-count: infinite;
