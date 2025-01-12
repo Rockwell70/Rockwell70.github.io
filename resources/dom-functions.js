@@ -38,7 +38,7 @@ $(document).ready(() => {
     marginRight: "auto",
     justifyContent: "center",
     position: "static",
-    boxShadow: "10px 10px 5px darkslateblue"
+    // boxShadow: "10px 10px 5px darkgray"
 
   });
 
@@ -50,7 +50,7 @@ $(document).ready(() => {
     marginRight: "auto",
     justifyContent: "center",
     position: "static",
-    boxShadow: "10px 10px 5px darkslateblue"
+    // boxShadow: "10px 10px 5px darkgray"
 
   });
 
