@@ -14,7 +14,6 @@ h4, h5 {
     color: white
 }
 
-
 body {
     font-family: "Apple SD Gothic Neo", serif;
     padding: 0 12px;
@@ -93,14 +92,14 @@ padding: 20px 20px;
     filter: drop-shadow(0 0 0.75rem darkgray);
 }
 
-/*.wb-caption {*/
-/*    font-size: x-large;*/
-/*    justify-content: center;*/
-/*    text-align: center;*/
-/*}*/
+.wb-caption {
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
 
 /*#say-something {*/
-/*    !*color: white;*!*/
+/*    color: white;*/
 /*    text-align: center;*/
 /*}*/
 
@@ -188,6 +187,20 @@ padding: 20px 20px;
   to {
     transform: rotate(359deg);
   }
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: navajowhite;
+}
+
+aside > p {
+  margin: 0.5rem;
 }
 
 /*#poochie:hover {*/
