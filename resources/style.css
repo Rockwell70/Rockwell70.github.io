@@ -80,8 +80,29 @@ padding: 20px 20px;
      padding-top: 10px;
      height: 400px;
      width: 500px;
-     box-shadow: 25px 25px 15px black;
+     /*box-shadow: 25px 25px 15px black;*/
+     box-shadow: 25px 25px 15px white;
+     filter: drop-shadow(5px 5px 4px #FF0000) /* Red */
+        drop-shadow(5px 5px 4px #FF7F00) /* Orange */
+        drop-shadow(5px 5px 4px #FFFF00) /* Yellow */
+        drop-shadow(5px 5px 4px #00FF00) /* Green */
+        drop-shadow(5px 5px 4px #0000FF) /* Blue */
+        drop-shadow(5px 5px 4px #2E2B5F) /* Indigo */
+        drop-shadow(5px 5px 4px #8B00FF); /* Violet */;
  }
+
+ #secret-image {
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 0 2px 2px #FF0000,
+    -2px 5px 0 #ff7f00,
+    -4px 10px 0 #ffff00,
+    -8px 15px 0 #00ff00,
+    -12px 20px 0 #0000ff,
+    -16px 25px 0 #4b0082,
+    -20px 30px 0 #9400d3;
+    overflow-wrap: break-word;
+}
 
 .wb_serious {
     display: flex;
@@ -97,6 +118,7 @@ padding: 20px 20px;
     justify-content: center;
     text-align: center;
 }
+
 
 /*#say-something {*/
 /*    color: white;*/
@@ -115,18 +137,7 @@ padding: 20px 20px;
     margin-top: 50px;
     position: static;
 }
-#zack-caption {
-    font-size: xx-large;
-    text-align: center;
-    text-shadow: 0 2px 2px #FF0000,
-    -2px 5px 0 #ff7f00,
-    -4px 10px 0 #ffff00,
-    -8px 15px 0 #00ff00,
-    -12px 20px 0 #0000ff,
-    -16px 25px 0 #4b0082,
-    -20px 30px 0 #9400d3;
-    overflow-wrap: break-word;
-}
+
 
 .zack_poohcie{
     /*background-color: #F2A81D;*/
@@ -237,11 +248,19 @@ aside > p {
 
 .rayray {
     color: #F26B1D;
-    animation: 8s ease-in 0s infinite both running slidein;
+    /*animation: 8s ease-in 0s infinite both running slidein;*/
     width: 1000px;
     display: inline-block;
+    animation: fadeIn 2s infinite;
 
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 
 /*.plans {*/
 /*    color: #F26B1D;*/
