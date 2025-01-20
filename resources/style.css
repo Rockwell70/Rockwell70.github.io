@@ -37,7 +37,22 @@ padding: 20px 20px;
     display: -ms-inline-flexbox;
     justify-content: center;
     margin: 100px auto 80px auto;
+    padding: 50px;
+    position: static;
+    height: auto;
+    width: fit-content;
+    max-width: max-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.wb_and_hc {
+
+    display: -ms-inline-flexbox;
+    justify-content: center;
+    margin: 100px auto 80px auto;
     padding: 30px;
+    gap: 12px;
     position: static;
     height: auto;
     width: fit-content;
@@ -73,6 +88,7 @@ padding: 20px 20px;
     display: flex;
     flex-grow: 1;
     padding: 2px;
+    color:white;
 }
 
  #secret-image {
@@ -80,15 +96,15 @@ padding: 20px 20px;
      padding-top: 10px;
      height: 400px;
      width: 500px;
-     /*box-shadow: 25px 25px 15px black;*/
-     box-shadow: 25px 25px 15px white;
-     filter: drop-shadow(5px 5px 4px #FF0000) /* Red */
-        drop-shadow(5px 5px 4px #FF7F00) /* Orange */
-        drop-shadow(5px 5px 4px #FFFF00) /* Yellow */
-        drop-shadow(5px 5px 4px #00FF00) /* Green */
-        drop-shadow(5px 5px 4px #0000FF) /* Blue */
-        drop-shadow(5px 5px 4px #2E2B5F) /* Indigo */
-        drop-shadow(5px 5px 4px #8B00FF); /* Violet */;
+     box-shadow: 25px 25px 15px darkblue;
+     /*box-shadow: 25px 25px 15px white;*/
+     /*filter: drop-shadow(5px 5px 4px #FF0000) !* Red *!*/
+     /*   drop-shadow(5px 5px 4px #FF7F00) !* Orange *!*/
+     /*   drop-shadow(5px 5px 4px #FFFF00) !* Yellow *!*/
+     /*   drop-shadow(5px 5px 4px #00FF00) !* Green *!*/
+     /*   drop-shadow(5px 5px 4px #0000FF) !* Blue *!*/
+     /*   drop-shadow(5px 5px 4px #2E2B5F) !* Indigo *!*/
+     /*   drop-shadow(5px 5px 4px #8B00FF); !* Violet *!;*/
  }
 
  #secret-image {
@@ -104,14 +120,23 @@ padding: 20px 20px;
     overflow-wrap: break-word;
 }
 
-.wb_serious {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 75px;
-    position: static;
-    filter: drop-shadow(0 0 0.75rem darkgray);
-}
+/*.wb_serious{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin-top: 100px;*/
+/*    margin-bottom: 75px;*/
+/*    position: static;*/
+/*    filter: drop-shadow(0 0 0.75rem darkgray);*/
+/*}*/
+
+/*.harry_caray{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin-top: 150px;*/
+/*    margin-bottom: 75px;*/
+/*    position: static;*/
+/*    filter: drop-shadow(0 0 0.75rem darkgray);*/
+/*}*/
 
 .wb-caption {
     font-size: x-large;
