@@ -51,7 +51,7 @@ padding: 20px 20px;
     display: -ms-inline-flexbox;
     justify-content: center;
     margin: 100px auto 80px auto;
-    padding: 30px;
+    padding: 50px;
     gap: 12px;
     position: static;
     height: auto;
@@ -60,6 +60,11 @@ padding: 20px 20px;
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+figcaption {
+    color: #F26B1D; font-style: italic;font-size: 20px; text-align: center
+}
+
 #attitude, #backpack {
     height: 340px;
     width: 500px;
