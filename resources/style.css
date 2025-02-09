@@ -24,6 +24,21 @@ body {
     background-repeat: no-repeat;
     /*background-image: url('resources/images/rideshare_feature.jpg');*/
 }
+#sounders {
+    -webkit-animation: scaling 1s 4 ease;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+@-webkit-keyframes scaling {
+    from {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(.6);
+    }
+}
+
+
 
 .buns
 {
