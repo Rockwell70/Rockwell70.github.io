@@ -1,0 +1,15 @@
+$box-color: lightcoral;
+$text-color: white;
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: $box-color;
+    color: $text-color;
+    text-align: center;
+    line-height: 100px;
+
+    &:hover {
+        background-color: darkred;
+    }
+}
