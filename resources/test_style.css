@@ -1,11 +1,68 @@
 
 
 
-body {
-    font-family: "Apple SD Gothic Neo", serif;
-    padding: 0 12px;
+:after, :before {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+    --tw-shadow: 0 0 transparent;
+    --tw-shadow-colored: 0 0 transparent;
+}
+
+a, button {
+    pointer-events: all;
+}
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    font-family: inherit;
+}
+[role=button], button {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-size: 100%;
+    font-variation-settings: inherit;
+    font-weight: inherit;
+    line-height: inherit;
     margin: 0;
-    /*background: #0367A6;*/
-    background: black;
-    /*background-image: url('resources/images/rideshare_feature.jpg');*/
+    padding: 0;
+}
+*, :after, :before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+svg[Attributes] {
+    fill: none;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
 }
