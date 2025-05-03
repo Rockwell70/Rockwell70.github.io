@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightcoral;
+  color: blue;
+  text-align: center;
+  line-height: 100px;
+}
+.box:hover {
+  background-color: darkred;
+}
+
+/*# sourceMappingURL=index.css.map */

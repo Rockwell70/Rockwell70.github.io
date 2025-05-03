@@ -1,0 +1,14 @@
+$font-stack: "Apple SD Gothic Neo", serif;
+$primary-color: white;
+$primary-background: black;
+
+.page-header {
+  color: $primary-color;
+  font-size: 20px;
+  text-align: center;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
