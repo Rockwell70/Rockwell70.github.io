@@ -18,9 +18,13 @@ body {
     font-family: "Apple SD Gothic Neo", serif;
     padding: 0 12px;
     margin: 0;
+    min-height: 100%;
     /*background: #0367A6;*/
     background: black;
-    background-size:  100% auto;
+    background-image: url('resources/images/pexels-pixabay-207529.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:  cover;
     background-repeat: no-repeat;
     /*background-image: url('resources/images/rideshare_feature.jpg');*/
 }
@@ -411,4 +415,42 @@ aside > p {
 
 #secret-button:hover:after {
   height: 100%;
+}
+
+.container {
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 67%;
+    max-width: 67%;
+}
+
+.container div {
+    background-color: black;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 4px 4px;
+}
+
+.column img {
+    /*margin-top: 8px;*/
+    justify-content: center;
+    width: 90%;
+    max-height: 90%;
+
 }
