@@ -29,6 +29,10 @@ $(document).ready(() => {
     $("#secret-figure").toggle("slow");
     $("#secret-image-text").toggle('slow');
   });
+    $("#forbidden-button").on("click", () => {
+      $("#forbidden-button-message").toggle("slow");
+    })
+    
 
   $("#poochie").css({
     display: "flex",
@@ -41,6 +45,8 @@ $(document).ready(() => {
     // boxShadow: "10px 10px 5px darkgray"
 
   });
+  
+  
 
   $("#poochie2").css({
     display: "flex",

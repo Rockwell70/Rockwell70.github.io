@@ -1,5 +1,10 @@
-.page-header {
+* {
+    font-family: "Apple SD Gothic Neo", serif;
     color: white;
+}
+
+.page-header {
+    /*color: white;*/
     /*color: black;*/
     font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 20px;
@@ -10,9 +15,9 @@
 /*    font-size: 35px;*/
 /*}*/
 
-h4, h5 {
-    color: white
-}
+/*h4, h5 {*/
+/*    color: white*/
+/*}*/
 
 body {
     font-family: "Apple SD Gothic Neo", serif;
@@ -64,6 +69,16 @@ padding: 20px 20px;
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.gramps-x-account {
+    /*color: white;*/
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 
 .wb_and_hc, .wb, .hc {
 
@@ -165,24 +180,7 @@ figcaption {
     -20px 30px 0 #9400d3;
     overflow-wrap: break-word;
 }
-
-/*.wb_serious{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    margin-top: 100px;*/
-/*    margin-bottom: 75px;*/
-/*    position: static;*/
-/*    filter: drop-shadow(0 0 0.75rem darkgray);*/
-/*}*/
-
-/*.harry_caray{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    margin-top: 150px;*/
-/*    margin-bottom: 75px;*/
-/*    position: static;*/
-/*    filter: drop-shadow(0 0 0.75rem darkgray);*/
-/*}*/
+ 
 
 .wb-caption {
     font-size: x-large;
@@ -190,11 +188,6 @@ figcaption {
     text-align: center;
 }
 
-
-/*#say-something {*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*}*/
 
 .zacky {
     border: 10px solid #fff;
@@ -355,20 +348,26 @@ aside > p {
 
 }
 
-#secret-button {
+#secret-button, #forbidden-button {
+    align-items: center;
     background-color: transparent;
     box-sizing: border-box;
     border: 2px solid #fff;
+    border-radius: 5px;
     color: #FFFFFF;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
+    justify-content: center;
+    justify-self: center;
     line-height: 24px;
-    margin-left: 20px;
     opacity: 1;
     outline: 0 solid transparent;
     padding: 6px 10px;
+    margin-bottom: 6rem;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -378,7 +377,11 @@ aside > p {
 
 }
 
-#secret-button:hover {
+#forbidden-button {
+    margin-top: 2rem;
+}
+
+#secret-button:hover, #forbidden-button:hover {
     color: black;
     background-color: white;
 }
@@ -392,7 +395,7 @@ aside > p {
 }
 
 
-#secret-button, #secret-button::after {
+#secret-button, #secret-button::after, #forbidden-button::after {
   -webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
   -o-transition: all 0.6s;
@@ -415,6 +418,12 @@ aside > p {
 
 #secret-button:hover:after {
   height: 100%;
+}
+
+#forbidden-button-message {
+    display: none;
+    flex-flow: row;
+    justify-self: center;
 }
 
 .container {
