@@ -18,9 +18,9 @@
 // });
 
 $(document).ready(() => {
-  let date = new Date().getDay();
-  let daysToRayRay = 0;
-  date > 5 ? (daysToRayRay = date) : (daysToRayRay = 5 - date);
+  // let date = new Date().getDay();
+  // let daysToRayRay = 0;
+  // date > 5 ? (daysToRayRay = date) : (daysToRayRay = 5 - date);
   // let daysToRayRay = Math.abs(date - 7);
 
 
@@ -56,7 +56,6 @@ $(document).ready(() => {
     marginRight: "auto",
     justifyContent: "center",
     position: "static",
-    // boxShadow: "10px 10px 5px darkgray"
 
   });
 
@@ -79,38 +78,31 @@ $(document).ready(() => {
 
   });
 
-  // $('.textbox').delay(500).animate({top:'18'}, 700);
 
-  if (date === 5) {
-    $(".rayray").text("Happy Ray Ray Friday! My man got all KINDS a plans!!")
-  } else if (date === 4) {
-    $(".rayray").text(`Alert: ${daysToRayRay} day until Ray Ray Friday!`);
-  } else {
-    $(".rayray").text(`Alert: ${daysToRayRay} days until Ray Ray Friday!`);
-  }
-
-  // function pulse() {
-  //   $(".rayray").toggle();
+  // if (date === 5) {
+  //   $(".rayray").text("Happy Ray Ray Friday! My man got all KINDS a plans!!")
+  // } else if (date === 4) {
+  //   $(".rayray").text(`Alert: ${daysToRayRay} day until Ray Ray Friday!`);
+  // } else {
+  //   $(".rayray").text(`Alert: ${daysToRayRay} days until Ray Ray Friday!`);
   // }
-  // setInterval(pulse, 1500);
+
 });
 
-// $(document).on("scroll", function() {
-//   let pixels = $(document).scrollTop();
-//   let pageHeight = $(document).height() - $(window).height();
-//   let progress = 100 * pixels / pageHeight;
-//
-//   $("div.progress").css("width", progress + "%");
-// })
+function daysToFriday() {
+    const currentDay = new Date().getDay();
+    let daysToRayRay = 0;
+    currentDay > 5 ? (daysToRayRay = currentDay) : (daysToRayRay = 5 - currentDay);
 
-// const toggleHiddenElement = (domElement) => {
-//   if (domElement.style.display === "none") {
-//     domElement.style.display = "block";
-//   } else {
-//     domElement.style.display = "none";
-//   }
-// };
+    const rayRayText = document.querySelector(".rayray")
 
-// buttonElement.addEventListener("click", () => {
-//   toggleHiddenElement(imgElement);
-// });
+    if (currentDay === 5) {
+        rayRayText.textContent = "Happy Ray Ray Friday! My man got all KINDS a plans!!"
+    } else if (currentDay === 4) {
+        rayRayText.textContent = `Alert: ${daysToRayRay} day until Ray Ray Friday!`
+    } else {
+        rayRayText.textContent = `Alert: ${daysToRayRay} days until Ray Ray Friday!`
+    }
+}
+
+daysToFriday()
