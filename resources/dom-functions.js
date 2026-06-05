@@ -89,20 +89,40 @@ $(document).ready(() => {
 
 });
 
+const CURRENTDAY = new Date().getDay()
+
 function daysToFriday() {
     const currentDay = new Date().getDay();
     let daysToRayRay = 0;
-    currentDay > 5 ? (daysToRayRay = currentDay) : (daysToRayRay = 5 - currentDay);
+    // currentDay > 5 ? (daysToRayRay = currentDay) : (daysToRayRay = 5 - currentDay);
+    CURRENTDAY > 5 ? (daysToRayRay = CURRENTDAY) : (daysToRayRay = 5 - CURRENTDAY);
 
     const rayRayText = document.querySelector(".rayray")
 
-    if (currentDay === 5) {
+    if (CURRENTDAY === 5) {
         rayRayText.textContent = "Happy Ray Ray Friday! My man got all KINDS a plans!!"
-    } else if (currentDay === 4) {
+    } else if (CURRENTDAY === 4) {
         rayRayText.textContent = `Alert: ${daysToRayRay} day until Ray Ray Friday!`
     } else {
         rayRayText.textContent = `Alert: ${daysToRayRay} days until Ray Ray Friday!`
     }
 }
 
+function theGreatMoo() {
+    const newH2 = document.createElement('H2')
+    newH2.className = 'greatMoo';
+
+
+    if (CURRENTDAY === 5) {
+        newH2.textContent = 'I am the Great Moo!';
+        newH2.style.display = "flex";
+        newH2.style.flexDirection = "row";
+        newH2.style.justifyContent = "center";
+        newH2.style.marginBottom = "6rem";
+        document.body.appendChild(newH2);
+   
+    }
+}
+
 daysToFriday()
+theGreatMoo()
