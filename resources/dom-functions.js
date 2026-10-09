@@ -125,4 +125,4 @@ function theGreatMoo() {
 }
 
 daysToFriday()
-theGreatMoo()
+// theGreatMoo()

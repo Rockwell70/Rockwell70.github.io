@@ -78,6 +78,7 @@ padding: 20px 20px;
     /*color: white;*/
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 
 }
 
@@ -451,4 +452,65 @@ aside > p {
     width: 90%;
     max-height: 90%;
 
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.boxes {
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes-bottom {
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box-noire {
+    /*box-sizing: border-box;*/
+    color: white;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    /*padding: 10px;*/
+    border: 1px solid  white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-blanche{
+    /*Take the dimensions that I specified and 
+    also account for the padding and border too,
+    instead of adding them to the desired size*/
+    /*box-sizing: border-box;*/
+    display: flex;
+    height: 100px;
+    width: 100px;
+    /*padding: 10px;*/
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.towelie {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 50%;
+    height: auto;
 }
