@@ -514,3 +514,13 @@ html {
     width: 50%;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    .towelie {
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        width: 50%;
+        height: auto;
+    }
+}
