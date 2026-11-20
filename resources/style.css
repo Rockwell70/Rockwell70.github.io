@@ -524,3 +524,16 @@ html {
         height: auto;
     }
 }
+
+.no_moo_jr {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: type 2s steps(100, end) infinite alternate;
+}
+
+@keyframes type {
+    to {
+        width: 7em;
+    }
+}
