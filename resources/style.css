@@ -529,7 +529,7 @@ html {
     white-space: nowrap;
     overflow: hidden;
     width: 0;
-    animation: type 2s steps(100, end) infinite alternate;
+    animation: type 4s steps(100, end) infinite alternate;
 }
 
 @keyframes type {
